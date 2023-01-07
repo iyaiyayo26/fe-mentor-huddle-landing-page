@@ -14,8 +14,42 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href=".\images\favicon-32x32.png" />
       </Head>
-      <p className="text-red-600 font-Poppins">test</p>
-      <h1 className="text-purple-600 font-Open-sans">coba</h1>
+      <div className="container">
+        <div className="section-1 px-7 pt-5">
+          <img src=".\images\logo.svg" alt="logo" className="logo w-[100px] mb-14" />
+          <img src=".\images\illustration-mockups.svg" alt="mockup" />
+        </div>
+        <div className="section-2 mt-14">
+          <h2 className="title text-center text-white font-semibold font-Poppins text-xl px-14 mb-5">Build The Community Your Fans Will Love</h2>
+          <p className="description text-white font-Open-sans text-center px-8 mb-5">
+            Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
+          </p>
+          <div className="flex justify-center">
+            <button type="submit" className="bg-white w-1/2 py-3 rounded-full text-Violet-ext font-Poppins shadow-md shadow-gray-800 hover:bg-Soft-Magenta hover:text-white">
+              Register
+            </button>
+          </div>
+          <footer className="social-media mt-10 pb-10">
+            <div className="social-media flex flex-row justify-center space-x-3 ">
+              <button className="border border-white rounded-full p-2">
+                <a href="http://facebook.com">
+                  <img src=".\images\facebook.svg" alt="facebook" className="w-[15px]" />
+                </a>
+              </button>
+              <button className="border border-white rounded-full p-2">
+                <a href="http://twitter.com">
+                  <img src=".\images\twitter.svg" alt="twitter" className="w-[15px]" />
+                </a>
+              </button>
+              <button className="border border-white rounded-full p-2">
+                <a href="http://instagram.com">
+                  <img src=".\images\instagram-icon.svg" alt="instagram" className="w-[15px]" />
+                </a>
+              </button>
+            </div>
+          </footer>
+        </div>
+      </div>
     </>
   );
 }

@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        Violet: "hsl(257, 40%, 49%)",
+        "Violet-ext": "hsl(257, 40%, 49%)",
         "Soft-Magenta": "hsl(300, 69%, 71%)",
       },
       fontFamily: {
