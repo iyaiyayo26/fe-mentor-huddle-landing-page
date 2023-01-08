@@ -14,23 +14,23 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href=".\images\favicon-32x32.png" />
       </Head>
-      <div className="container">
-        <div className="section-1 px-7 pt-5">
-          <img src=".\images\logo.svg" alt="logo" className="logo w-[100px] mb-14" />
+      <div className="container lg:flex lg:pb-24">
+        <div className="section-1 px-7 pt-5 lg:w-[50%] lg:ml-5">
+          <img src=".\images\logo.svg" alt="logo" className="logo w-[100px] mb-14 lg:w-[150px]" />
           <img src=".\images\illustration-mockups.svg" alt="mockup" />
         </div>
-        <div className="section-2 mt-14">
-          <h2 className="title text-center text-white font-semibold font-Poppins text-xl px-14 mb-5">Build The Community Your Fans Will Love</h2>
-          <p className="description text-white font-Open-sans text-center px-8 mb-5">
+        <div className="section-2 mt-14 lg:w-[50%]">
+          <h2 className="title text-center lg:text-left text-white  font-semibold font-Poppins text-xl lg:text-2xl px-14 lg:pl-8 lg:pr-40 mb-5">Build The Community Your Fans Will Love</h2>
+          <p className="description text-white font-Open-sans text-center lg:text-left px-8 lg:pr-16 mb-5">
             Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
           </p>
-          <div className="flex justify-center">
-            <button type="submit" className="bg-white w-1/2 py-3 rounded-full text-Violet-ext font-Poppins shadow-md shadow-gray-800 hover:bg-Soft-Magenta hover:text-white">
+          <div className="flex justify-center lg:justify-start lg:pl-8">
+            <button type="submit" className="bg-white w-1/2 py-3 lg:w-[40%] rounded-full text-Violet-ext font-Poppins shadow-md shadow-gray-800 hover:bg-Soft-Magenta hover:text-white">
               Register
             </button>
           </div>
           <footer className="social-media mt-10 pb-10">
-            <div className="social-media flex flex-row justify-center space-x-3 ">
+            <div className="social-media flex flex-row justify-center lg:justify-end lg:translate-y-28 lg:pr-10 space-x-3 ">
               <button className="border border-white rounded-full p-2">
                 <a href="http://facebook.com">
                   <img src=".\images\facebook.svg" alt="facebook" className="w-[15px]" />
